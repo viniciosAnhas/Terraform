@@ -66,7 +66,7 @@
 ```bash
     # Grupo de Recurso
     rg-name     = ""
-    rg-location = "eastus"
+    rg-location = ""
 
     # AKS
     aks-name               = ""
@@ -149,7 +149,5 @@ terraform apply
 <p style="text-align: justify;">Observações</p>
 
 <ul>
-  <li style="text-align: justify;">Localização: O projeto utiliza eastus como localização configurável via terraform.tfvars.</li>
   <li style="text-align: justify;">Permissões: Assegure que a conta usada tenha permissão para criar clusters AKS e ACR.</li>
-
 </ul>
