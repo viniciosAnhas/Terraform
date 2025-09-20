@@ -109,6 +109,18 @@ az account list --output table
 az account set --subscription "your-subscription-id"
 ```
 
+<li style="text-align: justify;">Execute o comando  para mostrar todas as regiões disponíveis no Azure para a sua conta:</li>
+
+```bash
+az account list-locations --output table
+```
+
+<li style="text-align: justify;">Execute o comando mostra as versões do Kubernetes disponíveis para criar ou atualizar um cluster AKS na região especificada</li>
+
+```bash
+az aks get-versions --location regiaoEscolhida --output table
+```
+
 <li style="text-align: justify;">Inicialize o Terraform:</li>
 
 ```bash
